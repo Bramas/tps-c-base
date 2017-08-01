@@ -15,3 +15,12 @@ cd cloud9-vnc
 ./run.sh
 popd
 
+
+echo 'LD_LIBRARY_PATH=/usr/local/lib' >> $HOME/.bashrc
+
+git clone https://gitlab.com/bramas/libtps.h.git
+pushd libtps.h
+sudo make install
+popd
+rm -rf libtps.h
+
