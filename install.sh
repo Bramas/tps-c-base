@@ -25,5 +25,5 @@ git clone https://gitlab.com/bramas/libtps.h.git
 pushd libtps.h
 sudo make install
 popd
-rm -rf libtps.h
+sudo rm -rf libtps.h
 
