@@ -12,7 +12,9 @@ mkdir .plugins
 cd .plugins
 git clone https://github.com/Bramas/cloud9-vnc.git
 cd cloud9-vnc
-./install_cs50.sh
+./install.sh <<-EOF
+yes
+EOF
 ./run.sh
 popd
 
