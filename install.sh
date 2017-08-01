@@ -2,7 +2,7 @@ update50
 sudo apt-get update
 curl https://gist.githubusercontent.com/Bramas/aa266e1cf92c0b7d5a36d5daa2fa2797/raw/9ccf1d8279217c693feab94b7b46aa9ebc47471d/udev_dpkg_workaround.sh | bash
 
-sudo apt-get install libsdl2-dev
+sudo apt-get install libsdl2-dev libsdl2-ttf-dev
 
 sudo apt-get install supervisor x11vnc xvfb fluxbox novnc
 
