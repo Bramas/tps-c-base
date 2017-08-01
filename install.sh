@@ -17,6 +17,9 @@ popd
 
 
 echo 'LD_LIBRARY_PATH=/usr/local/lib' >> $HOME/.bashrc
+echo 'LDLIBS="-lcrypt -lcs50 -lm -ltps -lSDL2 -lSDL2_ttf"' >> $HOME/.bashrc
+
+source $HOME/.bashrc
 
 git clone https://gitlab.com/bramas/libtps.h.git
 pushd libtps.h
