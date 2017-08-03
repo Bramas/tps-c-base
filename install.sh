@@ -24,6 +24,7 @@ echo 'export CC=clang' >> $HOME/.bashrc
 echo 'export LDLIBS="-lcrypt -lm -ltps -lSDL2 -lSDL2_ttf"' >> $HOME/.bashrc
 echo 'export CFLAGS="-fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow"' >> $HOME/.bashrc
 echo 'alias tps-debug=debug50' >> $HOME/.bashrc
+echo 'export PATH=$PATH:$HOME/.c9/plugins/tps.custom/bin' >> $HOME/.bashrc
 
 source $HOME/.bashrc
 
