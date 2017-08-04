@@ -18,6 +18,7 @@ EOF
 c9vnc
 popd
 
+nvm install 8
 
 echo 'export LD_LIBRARY_PATH=/usr/local/lib' >> $HOME/.bashrc
 echo 'export CC=clang' >> $HOME/.bashrc
