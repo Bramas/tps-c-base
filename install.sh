@@ -41,7 +41,7 @@ source $HOME/.bashrc
 
 git clone https://gitlab.com/bramas/libtps.h.git
 pushd libtps.h
-sudo make install
+sudo make install IN_BROWSER=1
 popd
 sudo rm -rf libtps.h
 
