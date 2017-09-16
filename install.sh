@@ -35,6 +35,7 @@ echo 'export LDLIBS="-lcrypt -lm -ltps -lSDL2 -lSDL2_ttf"' >> $HOME/.bashrc
 echo 'export CFLAGS="-fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow"' >> $HOME/.bashrc
 echo 'alias tps-debug=debug50' >> $HOME/.bashrc
 echo 'alias open="c9 open"' >> $HOME/.bashrc
+echo 'alias indent="indent -kr -ci2 -cli2 -i2 -l80 -nut "' >> $HOME/.bashrc
 echo 'export PATH=$PATH:/opt/tps-cli/bin' >> $HOME/.bashrc
 
 source $HOME/.bashrc
